@@ -6,6 +6,7 @@ import logout from "./actions/logout.js";
 
 
 
+//TODO: Handle errors properly the way Joe showed me
 async function bestFoodScraper() {
     try {
         const browser = await puppeteer.launch({ headless: false });
