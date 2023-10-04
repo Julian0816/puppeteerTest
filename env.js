@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 dotenv.config();
 
-export const username = process.env.USERNAME
-export const password = process.env.PASSWORD
-export const url = process.env.URL
+export const USERNAME = process.env.USERNAME;
+export const PASSWORD = process.env.PASSWORD;
+export const URL = process.env.URL;
