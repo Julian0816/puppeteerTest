@@ -1,5 +1,10 @@
 import keywords from "../keywords.js";
 
+//TODO:
+//Use jquery to select all the innerText from all the td in the table
+//$$("table[cellspacing='0'] tr:has(td input[id='chkProduct0'])")
+//Then I have to substitute the keywords I have hardcoded for the data I am collecting
+
 const PRODUCT_KEY_SEARCH_INPUT = "#ctl00_ContentPlaceHolder1_txtProductKey";
 const SEARCH_BUTTON = "#ctl00_ContentPlaceHolder1_btnSearch";
 
