@@ -1,8 +1,8 @@
 import puppeteer from "puppeteer";
 import { url } from "./env.js";
-import login from "./utils/login.js";
-import search from "./utils/search.js";
-import logout from "./utils/logout.js";
+import login from "./actions/login.js";
+import search from "./actions/search.js";
+import logout from "./actions/logout.js";
 
 
 
