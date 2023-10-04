@@ -1,13 +1,7 @@
-// import keywords from "../keywords.js";
-
-// export default async function search(page){
-//     for (const item of keywords) {
-//         await page.type("#ctl00_ContentPlaceHolder1_txtProductKey", item.keyword);
-//         await page.click("#ctl00_ContentPlaceHolder1_btnSearch");
-//     }
-// }
-
 import keywords from "../keywords.js";
+
+const PRODUCT_KEY_SEARCH_INPUT = "#ctl00_ContentPlaceHolder1_txtProductKey";
+const SEARCH_BUTTON = "#ctl00_ContentPlaceHolder1_btnSearch";
 
 export default async function search(page) {
   try {
@@ -15,18 +9,18 @@ export default async function search(page) {
       // Clear previous input
       await page.evaluate(
         (selector) => (document.querySelector(selector).value = ""),
-        "#ctl00_ContentPlaceHolder1_txtProductKey"
+        PRODUCT_KEY_SEARCH_INPUT
       );
 
       // Type the keyword
       const keyword = typeof item === "object" ? item.keyword : item; // Check if item is an object or string
-      await page.type("#ctl00_ContentPlaceHolder1_txtProductKey", keyword);
+      await page.type(PRODUCT_KEY_SEARCH_INPUT, keyword);
 
       // Click the search button
       await Promise.all([
-        page.click("#ctl00_ContentPlaceHolder1_btnSearch"),
+        page.click(SEARCH_BUTTON),
         page.waitForNavigation({ waitUntil: "networkidle0" }), // Wait for navigation to complete
-        console.log(keyword, " :", item.Description)
+        console.log(keyword, " :", item.Description),
       ]);
     }
   } catch (error) {
