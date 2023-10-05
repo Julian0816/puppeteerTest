@@ -1,7 +1,8 @@
 const keywords = [
-  { keyword: "N6663T", Description: "NANDOS CHICKEN THIGH (CLEAR LINER) NR" },
-  { keyword: "N6657T", Description: "HALAL CHICKEN THIGH (CLEAR LINER) NR" },
-  { keyword: "N6719T", Description: "NANDOS BURGER (GREEN LINER) NR" },
+  { keyword: "chicken", Description: "Chicken Products" },
+  { keyword: "drinks", Description: "Drinks" },
+  { keyword: "sauces", Description: "Sauces" },
+  { keyword: "salad", Description: "Salads" },
 ];
 
 export default keywords;
