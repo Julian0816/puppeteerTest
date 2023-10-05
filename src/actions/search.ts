@@ -1,15 +1,16 @@
+import { Page } from "puppeteer";
 import keywords from "../keywords.js";
 import logTableDataCellContentByProduct from "../utils/logElements.js";
 
 const PRODUCT_KEY_SEARCH_INPUT = "#ctl00_ContentPlaceHolder1_txtProductKey";
 const SEARCH_BUTTON = "#ctl00_ContentPlaceHolder1_btnSearch";
 
-export default async function search(page) {
+export default async function search(page: Page) {
   try {
     for (const item of keywords) {
       // Clear previous input
       await page.evaluate(
-        (selector) => (document.querySelector(selector).value = ""),
+        (selector: any) => (document.querySelector(selector).value = ""),
         PRODUCT_KEY_SEARCH_INPUT
       );
 
