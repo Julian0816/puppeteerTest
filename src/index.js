@@ -1,8 +1,8 @@
 import puppeteer from "puppeteer";
-import setupBrowser from "./src/actions/setupPage.js";
-import login from "./src/actions/login.js";
-import search from "./src/actions/search.js";
-import logout from "./src/actions/logout.js";
+import setupBrowser from "./actions/setupPage.js";
+import login from "./actions/login.js";
+import search from "./actions/search.js";
+import logout from "./actions/logout.js";
 
 
 
