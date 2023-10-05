@@ -9,13 +9,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const env_js_1 = require("../env.js");
+const env_1 = require("../env");
 function setupBrowser(page) {
     return __awaiter(this, void 0, void 0, function* () {
         yield page.setViewport({ width: 1200, height: 720 });
         // await page.goto(URL, { waitUntil: "networkidle0" });
-        if (env_js_1.URL) {
-            yield page.goto(env_js_1.URL, { waitUntil: "networkidle0" });
+        if (env_1.URL) {
+            yield page.goto(env_1.URL, { waitUntil: "networkidle0" });
         }
         else {
             console.error("URL is undefined.");

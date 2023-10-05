@@ -9,11 +9,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const env_js_1 = require("../env.js");
+const env_1 = require("../env");
 // Initialize and type the credentials object
 const credentials = {
-    username: env_js_1.USERNAME,
-    password: env_js_1.PASSWORD,
+    username: env_1.USERNAME,
+    password: env_1.PASSWORD,
 };
 const USERNAME_INPUT_SELECTOR = "#ctl00_ContentPlaceHolder1_txtUsername";
 const PASSWORD_INPUT_SELECTOR = "#ctl00_ContentPlaceHolder1_txtPassword";

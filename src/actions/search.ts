@@ -1,6 +1,6 @@
 import { Page } from "puppeteer";
-import keywords from "../keywords.js";
-import logTableDataCellContentByProduct from "../utils/logElements.js";
+import keywords from "../keywords";
+import logTableDataCellContentByProduct from "../utils/logElements";
 
 const PRODUCT_KEY_SEARCH_INPUT = "#ctl00_ContentPlaceHolder1_txtProductKey";
 const SEARCH_BUTTON = "#ctl00_ContentPlaceHolder1_btnSearch";

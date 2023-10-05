@@ -13,20 +13,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const puppeteer_1 = __importDefault(require("puppeteer"));
-const setupPage_js_1 = __importDefault(require("./actions/setupPage.js"));
-const login_js_1 = __importDefault(require("./actions/login.js"));
-const search_js_1 = __importDefault(require("./actions/search.js"));
-const logout_js_1 = __importDefault(require("./actions/logout.js"));
+const setupPage_1 = __importDefault(require("./actions/setupPage"));
+const login_1 = __importDefault(require("./actions/login"));
+const search_1 = __importDefault(require("./actions/search"));
+const logout_1 = __importDefault(require("./actions/logout"));
 //TODO: Handle errors properly the way Joe showed me
 function bestFoodScraper() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const browser = yield puppeteer_1.default.launch({ headless: false });
             const page = yield browser.newPage();
-            yield (0, setupPage_js_1.default)(page);
-            yield (0, login_js_1.default)(page);
-            yield (0, search_js_1.default)(page);
-            yield (0, logout_js_1.default)(browser);
+            yield (0, setupPage_1.default)(page);
+            yield (0, login_1.default)(page);
+            yield (0, search_1.default)(page);
+            yield (0, logout_1.default)(browser);
         }
         catch (error) {
             console.error("An error occurred:", error);

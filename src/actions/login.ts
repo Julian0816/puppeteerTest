@@ -1,5 +1,5 @@
 import { Page } from "puppeteer";
-import { USERNAME, PASSWORD } from "../env.js";
+import { USERNAME, PASSWORD } from "../env";
 
 // Define an interface for credentials
 interface Credentials {

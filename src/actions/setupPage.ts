@@ -1,5 +1,5 @@
 import { Page } from "puppeteer";
-import { URL } from "../env.js";
+import { URL } from "../env";
 
 export default async function setupBrowser(page: Page) {
   await page.setViewport({ width: 1200, height: 720 });

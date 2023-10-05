@@ -12,14 +12,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const keywords_js_1 = __importDefault(require("../keywords.js"));
-const logElements_js_1 = __importDefault(require("../utils/logElements.js"));
+const keywords_1 = __importDefault(require("../keywords"));
+const logElements_1 = __importDefault(require("../utils/logElements"));
 const PRODUCT_KEY_SEARCH_INPUT = "#ctl00_ContentPlaceHolder1_txtProductKey";
 const SEARCH_BUTTON = "#ctl00_ContentPlaceHolder1_btnSearch";
 function search(page) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            for (const item of keywords_js_1.default) {
+            for (const item of keywords_1.default) {
                 // Clear previous input
                 yield page.evaluate((selector) => (document.querySelector(selector).value = ""), PRODUCT_KEY_SEARCH_INPUT);
                 // Type the keyword
@@ -31,7 +31,7 @@ function search(page) {
                     page.waitForNavigation({ waitUntil: "networkidle0" }), // Wait for navigation to complete
                 ]);
                 //Log Elements to the console
-                yield (0, logElements_js_1.default)(page);
+                yield (0, logElements_1.default)(page);
             }
         }
         catch (error) {
