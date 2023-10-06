@@ -1,11 +1,12 @@
-import { Page } from "puppeteer";
+import { Page, Browser } from "puppeteer";
+import logout from "./logout";
 import keywords from "../keywords";
 import scrappingActions from "./searchScrappingActions/scrappingActions";
 
 const PRODUCT_KEY_SEARCH_INPUT = "#ctl00_ContentPlaceHolder1_txtProductKey";
 const SEARCH_BUTTON = "#ctl00_ContentPlaceHolder1_btnSearch";
 
-export default async function search(page: Page) {
+export default async function search(page: Page, browser: Browser) {
   for (const item of keywords) {
     // Clear previous input
     try {
@@ -14,7 +15,9 @@ export default async function search(page: Page) {
         PRODUCT_KEY_SEARCH_INPUT
       );
     } catch (e) {
-      throw new Error(`Failed to clear input: ${e}`);
+      const errorMsg = `Failed to clear input: ${e}`;
+      await logout(browser);
+      throw new Error(errorMsg);
     }
 
     // Type the keyword
@@ -22,7 +25,9 @@ export default async function search(page: Page) {
     try {
       await page.type(PRODUCT_KEY_SEARCH_INPUT, keyword);
     } catch (e) {
-      throw new Error(`Failed to type keyword: ${e}`);
+      const errorMsg = `Failed to type keyword: ${e}`;
+      await logout(browser);
+      throw new Error(errorMsg);
     }
 
     // Click the search button
@@ -32,14 +37,18 @@ export default async function search(page: Page) {
         page.waitForNavigation({ waitUntil: "networkidle0" }),
       ]);
     } catch (e) {
-      throw new Error(`Failed to perform search: ${e}`);
+      const errorMsg = `Failed to perform search: ${e}`;
+      await logout(browser);
+      throw new Error(errorMsg);
     }
 
     // Perform scrapping actions
     try {
       await scrappingActions(page);
     } catch (e) {
-      throw new Error(`Failed to execute scrapping actions: ${e}`);
+      const errorMsg = `Failed to execute scrapping actions: ${e}`;
+      await logout(browser);
+      throw new Error(errorMsg);
     }
   }
 }

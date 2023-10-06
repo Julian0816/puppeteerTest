@@ -13,20 +13,21 @@ async function bestFoodScraper() {
     const page = await browser.newPage();
 
     // Setup the browser with predefined settings
-    await setupBrowser(page);
+    await setupBrowser(page, browser);
 
     // Perform login
-    await login(page);
+    await login(page, browser);
 
     // Perform search and scrap
-    await searchAndScrap(page);
+    await searchAndScrap(page, browser);
 
     // Perform logout
     await logout(browser);
   } catch (error) {
-    
+
     // Catch any errors thrown by the individual functions
     console.error("An error occurred:", error);
+
   }
 }
 
