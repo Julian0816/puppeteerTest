@@ -28,10 +28,10 @@ export default async function login(page: Page, browser: Browser) {
     await page.type(USERNAME_INPUT_SELECTOR, credentials.username);
     await page.type(PASSWORD_INPUT_SELECTOR, credentials.password);
   } catch (e) {
-    const errorMsg = `Failed to type username or password: ${e}`;
     await logout(browser);
-    throw new Error(errorMsg);
+    throw new Error("Failed to type username or password", { cause: e });
   }
+  //TODO: Add cause to all the other errors, this is great!!!
 
   try {
     await Promise.all([
