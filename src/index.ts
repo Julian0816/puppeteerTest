@@ -1,24 +1,33 @@
 import puppeteer from "puppeteer";
 import setupBrowser from "./actions/setupPage";
 import login from "./actions/login";
-import search from "./actions/search";
+import searchAndScrap from "./actions/searchAndScrap";
 import logout from "./actions/logout";
 
-
-
-//TODO: Handle errors properly the way Joe showed me
 async function bestFoodScraper() {
-    try {
-        const browser = await puppeteer.launch({ headless: false });
-        const page = await browser.newPage();
-        await setupBrowser(page);
-        await login(page);
-        await search(page);
-        await logout(browser);
-    } catch (error) {
-        console.error("An error occurred:", error);
-    }
+  try {
+    // Launch the browser
+    const browser = await puppeteer.launch({ headless: false });
 
+    // Open a new page
+    const page = await browser.newPage();
+
+    // Setup the browser with predefined settings
+    await setupBrowser(page);
+
+    // Perform login
+    await login(page);
+
+    // Perform search and scrap
+    await searchAndScrap(page);
+
+    // Perform logout
+    await logout(browser);
+  } catch (error) {
+    
+    // Catch any errors thrown by the individual functions
+    console.error("An error occurred:", error);
+  }
 }
 
 bestFoodScraper();
