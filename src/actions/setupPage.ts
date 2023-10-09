@@ -6,9 +6,8 @@ export default async function setupBrowser(page: Page, browser: Browser) {
   try {
     await page.setViewport({ width: 1200, height: 720 });
   } catch (e) {
-    const errorMsg = `Failed to set viewport: ${e}`;
     await logout(browser);
-    throw new Error(errorMsg);
+    throw new Error("Failed to set viewport", { cause: e });
   }
 
   if (!URL) {
@@ -18,9 +17,8 @@ export default async function setupBrowser(page: Page, browser: Browser) {
   try {
     await page.goto(URL, { waitUntil: "networkidle0" });
   } catch (e) {
-    const errorMsg = `Failed to navigate to URL: ${e}`;
     await logout(browser);
-    throw new Error(errorMsg);
+    throw new Error("Failed to navigate to URL", { cause: e });
   }
 }
 

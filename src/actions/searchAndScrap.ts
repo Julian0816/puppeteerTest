@@ -15,9 +15,8 @@ export default async function search(page: Page, browser: Browser) {
         PRODUCT_KEY_SEARCH_INPUT
       );
     } catch (e) {
-      const errorMsg = `Failed to clear input: ${e}`;
       await logout(browser);
-      throw new Error(errorMsg);
+      throw new Error("Failed to clear input", { cause: e });
     }
 
     // Type the keyword
@@ -25,9 +24,8 @@ export default async function search(page: Page, browser: Browser) {
     try {
       await page.type(PRODUCT_KEY_SEARCH_INPUT, keyword);
     } catch (e) {
-      const errorMsg = `Failed to type keyword: ${e}`;
       await logout(browser);
-      throw new Error(errorMsg);
+      throw new Error("Failed to type keyword", { cause: e });
     }
 
     // Click the search button
@@ -37,18 +35,16 @@ export default async function search(page: Page, browser: Browser) {
         page.waitForNavigation({ waitUntil: "networkidle0" }),
       ]);
     } catch (e) {
-      const errorMsg = `Failed to perform search: ${e}`;
       await logout(browser);
-      throw new Error(errorMsg);
+      throw new Error("Failed to perform search", { cause: e });
     }
 
     // Perform scrapping actions
     try {
       await scrappingActions(page);
     } catch (e) {
-      const errorMsg = `Failed to execute scrapping actions: ${e}`;
       await logout(browser);
-      throw new Error(errorMsg);
+      throw new Error("Failed to execute scrapping actions", { cause: e });
     }
   }
 }

@@ -39,9 +39,8 @@ export default async function login(page: Page, browser: Browser) {
       page.waitForNavigation({ waitUntil: "networkidle0" }),
     ]);
   } catch (e) {
-    const errorMsg = `Failed to login: ${e}`;
     await logout(browser);
-    throw new Error(errorMsg);
+    throw new Error("Failed to login", { cause: e });
   }
 
   try {
@@ -50,8 +49,7 @@ export default async function login(page: Page, browser: Browser) {
       page.waitForNavigation({ waitUntil: "networkidle0" }),
     ]);
   } catch (e) {
-    const errorMsg = `Failed to click next button: ${e}`;
     await logout(browser);
-    throw new Error(errorMsg);
+    throw new Error("Failed to click next button", { cause: e });
   }
 }
