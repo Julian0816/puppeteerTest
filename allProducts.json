@@ -1,0 +1,592 @@
+[
+  {
+    "code": "N6087A",
+    "Description": "EXTRA HOT BULK",
+    "Unit": "2X5KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "272",
+    "On_Order": "80"
+  },
+  {
+    "code": "N6090A",
+    "Description": "HOT BULK",
+    "Unit": "2X5KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "211",
+    "On_Order": "240"
+  },
+  {
+    "code": "N6094A",
+    "Description": "MEDIUM BULK",
+    "Unit": "2X5KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "184",
+    "On_Order": "560"
+  },
+  {
+    "code": "N6096A",
+    "Description": "WILD HERB BULK",
+    "Unit": "2X5KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "227",
+    "On_Order": "400"
+  },
+  {
+    "code": "N6126A",
+    "Description": "GARLIC PERI PERI SAUCE",
+    "Unit": "6X125ML",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "ALL ABOUT FOOD",
+    "Status": "",
+    "Available_Stock": "1364",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6127A",
+    "Description": "MED PERI PERI SAUCE",
+    "Unit": "6X125ML",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "ALL ABOUT FOOD",
+    "Status": "",
+    "Available_Stock": "1054",
+    "On_Order": "696"
+  },
+  {
+    "code": "N6128A",
+    "Description": "HOT PERI PERI SAUCE",
+    "Unit": "6X125ML",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "ALL ABOUT FOOD",
+    "Status": "",
+    "Available_Stock": "550",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6024T",
+    "Description": "NANDOS CORN NR",
+    "Unit": "20X3",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "BARFOOTS",
+    "Status": "",
+    "Available_Stock": "-706",
+    "On_Order": "1556"
+  },
+  {
+    "code": "N6248T",
+    "Description": "NANDOS COLESLAW NR",
+    "Unit": "6X2KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "GREENCORE FOOD TO GO SPALDING",
+    "Status": "",
+    "Available_Stock": "-552",
+    "On_Order": "1030"
+  },
+  {
+    "code": "N6330A",
+    "Description": "NANDO'S HOT BASTE",
+    "Unit": "3X5LT",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "388",
+    "On_Order": "1456"
+  },
+  {
+    "code": "N6328A",
+    "Description": "NANDO'S LEMON & HERB BASTE",
+    "Unit": "3X5LT",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "209",
+    "On_Order": "1232"
+  },
+  {
+    "code": "N6329A",
+    "Description": "NANDO'S MEDIUM BASTE",
+    "Unit": "3X5LT",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "551",
+    "On_Order": "1960"
+  },
+  {
+    "code": "N6380A",
+    "Description": "NANDOS X X X HOT BULK",
+    "Unit": "2X5KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "238",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6472C",
+    "Description": "NANDOS OLIVE MIX",
+    "Unit": "4X2.5KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "BELAZU INGREDIENTS COMPANY",
+    "Status": "",
+    "Available_Stock": "383",
+    "On_Order": "400"
+  },
+  {
+    "code": "N6496A",
+    "Description": "NANDOS NAPKINS",
+    "Unit": "1X3000",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "SWAN MILL PAPER CO Ltd",
+    "Status": "",
+    "Available_Stock": "618",
+    "On_Order": "2016"
+  },
+  {
+    "code": "N6501A",
+    "Description": "NANDOS XX HOT PERI PERI SAUCE",
+    "Unit": "6X125ML",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "ALL ABOUT FOOD",
+    "Status": "",
+    "Available_Stock": "1169",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6545C",
+    "Description": "NANDOS PERI TAMER BASTE",
+    "Unit": "2X5LT",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "1"
+  },
+  {
+    "code": "N6541T",
+    "Description": "NANDOS WINGS (PINK LINER) NR",
+    "Unit": "10X20",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "AVARA FOODS LTD",
+    "Status": "",
+    "Available_Stock": "-865",
+    "On_Order": "997"
+  },
+  {
+    "code": "N6595A",
+    "Description": "NANDOS CHILLI JAM",
+    "Unit": "4X1KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "601",
+    "On_Order": "3360"
+  },
+  {
+    "code": "N6663T",
+    "Description": "NANDOS CHICKEN THIGH (CLEAR LINER) NR",
+    "Unit": "20X5",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "AVARA FOODS LTD",
+    "Status": "",
+    "Available_Stock": "-2395",
+    "On_Order": "8588"
+  },
+  {
+    "code": "N6675F",
+    "Description": "NANDOS 7/16 CHIPS",
+    "Unit": "6X2.49KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "McCAIN FOODS (G.B.) LTD",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6701A",
+    "Description": "NANDOS PERI PERI SALT SPRINKLE 6 BY 70 G",
+    "Unit": "6X70G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "ALL ABOUT FOOD",
+    "Status": "",
+    "Available_Stock": "450",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6712A",
+    "Description": "22 OUNCE NANDOS COLD CUP LID",
+    "Unit": "1X2000",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "GPI FOODSERVICE EUROPE LTD",
+    "Status": "",
+    "Available_Stock": "22",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6711A",
+    "Description": "22 OUNCE NANDOS COLD CUP",
+    "Unit": "1X1000",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "GPI FOODSERVICE EUROPE LTD",
+    "Status": "",
+    "Available_Stock": "1",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6723A",
+    "Description": "NANDOS LEMON AND HERB PERI PERI SAUCE",
+    "Unit": "6X125ML",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "ALL ABOUT FOOD",
+    "Status": "",
+    "Available_Stock": "827",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6719T",
+    "Description": "NANDOS BURGER (GREEN LINER) NR",
+    "Unit": "20X5",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "AVARA FOODS LTD",
+    "Status": "",
+    "Available_Stock": "-1017",
+    "On_Order": "3753"
+  },
+  {
+    "code": "N6783C",
+    "Description": "NANDOS CLASSIC SALAD DRESSING",
+    "Unit": "2X5KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "JIGSAW FOODS LTD",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6867C",
+    "Description": "NANDOS BUTTER PORTIONS",
+    "Unit": "6X100",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "THE FOODFELLAS LTD",
+    "Status": "",
+    "Available_Stock": "390",
+    "On_Order": "180"
+  },
+  {
+    "code": "N6988A",
+    "Description": "NANDOS VINEGAR STICKS",
+    "Unit": "1X200",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "PORTION SOLUTIONS",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6986A",
+    "Description": "NANDOS PEPPER SACHETS",
+    "Unit": "1X2000",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "PORTION SOLUTIONS",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "0"
+  },
+  {
+    "code": "N6987A",
+    "Description": "NANDOS SALT SACHETS",
+    "Unit": "1X2000",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "PORTION SOLUTIONS",
+    "Status": "",
+    "Available_Stock": "251",
+    "On_Order": "198"
+  },
+  {
+    "code": "N6998A",
+    "Description": "NANDOS LARGE PAIL (WAS RED PAIL)",
+    "Unit": "1X180",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "HUHTAMAKI FOODSERVICE DELTA LT",
+    "Status": "",
+    "Available_Stock": "495",
+    "On_Order": "756"
+  },
+  {
+    "code": "N6996A",
+    "Description": "NANDOS SMALL PAIL (WAS PINK PAIL)",
+    "Unit": "1X160",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "HUHTAMAKI FOODSERVICE DELTA LT",
+    "Status": "",
+    "Available_Stock": "382",
+    "On_Order": "630"
+  },
+  {
+    "code": "N6997A",
+    "Description": "NANDOS REGULAR PAIL (WAS GREEN PAIL)",
+    "Unit": "1X210",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "HUHTAMAKI FOODSERVICE DELTA LT",
+    "Status": "",
+    "Available_Stock": "704",
+    "On_Order": "1680"
+  },
+  {
+    "code": "N7005T",
+    "Description": "NANDOS DOUBLE BREAST (YELLOW LINER) NR",
+    "Unit": "10X5",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "AVARA FOODS LTD",
+    "Status": "",
+    "Available_Stock": "-1031",
+    "On_Order": "2025"
+  },
+  {
+    "code": "N7006A",
+    "Description": "NANDOS CORN BAG",
+    "Unit": "1X1000",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "WELTON BIBBY & BARON LTD",
+    "Status": "",
+    "Available_Stock": "97",
+    "On_Order": "60"
+  },
+  {
+    "code": "N7044T",
+    "Description": "NANDOS SPATCHCOCK CHICKEN (BLUE LINER)NR",
+    "Unit": "1X12",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "AVARA FOODS LTD",
+    "Status": "",
+    "Available_Stock": "-2359",
+    "On_Order": "4789"
+  },
+  {
+    "code": "N7067F",
+    "Description": "NANDOS DARK CHOCOLATE SINGLE PTN GELADO",
+    "Unit": "24X75G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "GELARTO MY MENODICIOTTO LTD",
+    "Status": "",
+    "Available_Stock": "280",
+    "On_Order": "187"
+  },
+  {
+    "code": "N7066F",
+    "Description": "NANDOS COCONUT SINGLE PTN GELADO",
+    "Unit": "24X75G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "GELARTO MY MENODICIOTTO LTD",
+    "Status": "",
+    "Available_Stock": "356",
+    "On_Order": "0"
+  },
+  {
+    "code": "N7065F",
+    "Description": "NANDOS S/P MADAGASCAN VANILLA GELADO",
+    "Unit": "24X75G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "GELARTO MY MENODICIOTTO LTD",
+    "Status": "",
+    "Available_Stock": "491",
+    "On_Order": "0"
+  },
+  {
+    "code": "N7064F",
+    "Description": "NANDOS SINGLE PTN MANGO GELADO",
+    "Unit": "24X75G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "GELARTO MY MENODICIOTTO LTD",
+    "Status": "",
+    "Available_Stock": "468",
+    "On_Order": "0"
+  },
+  {
+    "code": "N7140A",
+    "Description": "NANDOS CARAMALISED RED ONION RELISH",
+    "Unit": "4X2KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "BD FOODS LTD",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "900"
+  },
+  {
+    "code": "N7141F",
+    "Description": "NANDOS MASH DISCS",
+    "Unit": "78X200G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "MASH DIRECT LTD",
+    "Status": "",
+    "Available_Stock": "1599",
+    "On_Order": "2880"
+  },
+  {
+    "code": "N7169A",
+    "Description": "NANDOS PERINAISE BOTTLES",
+    "Unit": "6X265G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "ALL ABOUT FOOD",
+    "Status": "",
+    "Available_Stock": "1052",
+    "On_Order": "423"
+  },
+  {
+    "code": "N7209A",
+    "Description": "NANDOS PITTA BOX",
+    "Unit": "1X550",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "HUHTAMAKI FOODSERVICE DELTA LT",
+    "Status": "",
+    "Available_Stock": "108",
+    "On_Order": "144"
+  },
+  {
+    "code": "N7261A",
+    "Description": "NANDOS DELIVERY BAGS",
+    "Unit": "1X350",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "WELTON BIBBY & BARON LTD",
+    "Status": "",
+    "Available_Stock": "404",
+    "On_Order": "672"
+  },
+  {
+    "code": "N7278A",
+    "Description": "NANDOS GARLIC BREAD BAG",
+    "Unit": "1X1000",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "WELTON BIBBY & BARON LTD",
+    "Status": "",
+    "Available_Stock": "139",
+    "On_Order": "120"
+  },
+  {
+    "code": "N7314A",
+    "Description": "NANDOS PERI SALT SACHETS",
+    "Unit": "2000X1G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "PORTION SOLUTIONS",
+    "Status": "",
+    "Available_Stock": "518",
+    "On_Order": "0"
+  },
+  {
+    "code": "N7305A",
+    "Description": "NANDOS COLD SIDES BAG",
+    "Unit": "1X500",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "WELTON BIBBY & BARON LTD",
+    "Status": "",
+    "Available_Stock": "134",
+    "On_Order": "480"
+  },
+  {
+    "code": "N7324T",
+    "Description": "NANDOS SPATCHCOCK CHICKEN X10 (BLACK)",
+    "Unit": "1X10",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "AVARA FOODS LTD",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "55"
+  },
+  {
+    "code": "N7351T",
+    "Description": "NANDOS FETA DICED NR",
+    "Unit": "4X200G",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "HARVEY & BROCKLESS",
+    "Status": "",
+    "Available_Stock": "-250",
+    "On_Order": "268"
+  },
+  {
+    "code": "N7363A",
+    "Description": "NANDOS LARGE CARRIER TAPERED HANDLE",
+    "Unit": "1X200",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "WELTON BIBBY & BARON LTD",
+    "Status": "",
+    "Available_Stock": "112",
+    "On_Order": "0"
+  },
+  {
+    "code": "N7387T",
+    "Description": "NANDOS HUMMUS NR",
+    "Unit": "2X1.75KG",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "HARVEY & BROCKLESS",
+    "Status": "",
+    "Available_Stock": "-650",
+    "On_Order": "517"
+  },
+  {
+    "code": "N7425A",
+    "Description": "CHEMECO NANDOS BOTTLE",
+    "Unit": "6X750ML",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "CHEMECO UK LTD",
+    "Status": "",
+    "Available_Stock": "68",
+    "On_Order": "50"
+  },
+  {
+    "code": "N7441A",
+    "Description": "NANDOS CO ORDINATION ROLLS 40",
+    "Unit": "1X40",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "MERLEY PAPER CONVERTERS LTD",
+    "Status": "",
+    "Available_Stock": "175",
+    "On_Order": "136"
+  },
+  {
+    "code": "N7444A",
+    "Description": "NANDOS WIRELESS PDQ ROLL 40",
+    "Unit": "1X40",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "MERLEY PAPER CONVERTERS LTD",
+    "Status": "",
+    "Available_Stock": "154",
+    "On_Order": "0"
+  },
+  {
+    "code": "N7443A",
+    "Description": "NANDOS CHIP AND PIN ROLLS 40",
+    "Unit": "1X40",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "MERLEY PAPER CONVERTERS LTD",
+    "Status": "",
+    "Available_Stock": "95",
+    "On_Order": "0"
+  },
+  {
+    "code": "N7442A",
+    "Description": "NANDOS TILLL ROLLS 40S",
+    "Unit": "1X40",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "MERLEY PAPER CONVERTERS LTD",
+    "Status": "",
+    "Available_Stock": "122",
+    "On_Order": "120"
+  },
+  {
+    "code": "N7492A",
+    "Description": "NANDOS NATA 4 PACK",
+    "Unit": "1X250",
+    "Units_Per_Case": "0",
+    "Major_Supplier": "HUHTAMAKI FOODSERVICE DELTA LT",
+    "Status": "",
+    "Available_Stock": "0",
+    "On_Order": "0"
+  }
+]
