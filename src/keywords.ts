@@ -1,8 +1,10 @@
-const keywords = [
-  { keyword: "chicken", Description: "Chicken Products" },
-  { keyword: "drinks", Description: "Drinks" },
-  { keyword: "sauces", Description: "Sauces" },
-  { keyword: "salad", Description: "Salads" },
+export interface Keyword {
+  keyword: string;
+  description: string;
+}
+
+const keywords: Keyword[] = [
+  { keyword: "nandos", description: "Nandos Products" },
 ];
 
 export default keywords;
